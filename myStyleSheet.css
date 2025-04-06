@@ -1,0 +1,100 @@
+
+  
+
+body {
+    
+    margin: 0;
+    margin-top: 2%;
+    height: 100vh; 
+    background-image: url(UCLimg2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: white; 
+    
+   
+  }
+  
+.ribbon { 
+    position: fixed; /* Fixed position to stay in place when scrolling */
+    top: 0;          /* Positioned at the top of the page */
+    left: 0;         /* Starts from the left */
+    width: 45%;      /* Takes up 45% of the page width */
+    height: 100%;    /* Takes up the full height of the page */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    transform: translateX(60%);
+    z-index: 2;
+
+}
+.banner {
+    background-color: #dddbdb;  
+    color: white;            /* White text */
+    text-align: center;      /* Center the text */
+    padding: 10px 0;         /* Padding on top and bottom */
+    position: relative;      /* Ensure it's positioned correctly */
+    width: 100%;             /* Make the banner full width */
+    top: 0;                  /* Place it at the top */
+    align-content: center;
+    font-size: 85%;
+    z-index: 100;
+    
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    font-size:larger; 
+    height: 5vh;
+    z-index: 3;
+    
+    
+}
+.headers {
+  display: flex;
+  justify-content: center;
+  font-size:larger; 
+  height: 5vh;
+  z-index: 3;
+  padding-top: 7%;
+  
+  
+}
+.subHeader {
+    display: flex;
+    justify-content: center;
+    font-size:medium; 
+    z-index: 3;
+
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;                /* Set the width to 40% */
+  margin: 0 auto;            /* Center the element horizontally */
+  text-align: center;
+  font-size: 97%;
+  z-index: 3;
+  }
+
+ 
+  .ulol {
+    list-style-position: inside; /* Moves bullets/numbers closer to text */
+    padding-left: 0; /* Reduces left padding */
+    text-align: center;
+    transform: translateX(-5%);
+
+  }
+  link  {
+        color: white;
+        
+    }
+  
+    .top-right-banner {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+  }
+  
